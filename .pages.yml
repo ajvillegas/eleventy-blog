@@ -32,7 +32,7 @@ content:
     path: _data/metadata.js
     format: code
 components:
-  hero: # 'hero' is the component name/key
+  hero: 'hero'
     label: Hero Section
     type: object
     fields:
@@ -43,7 +43,7 @@ components:
       - name: cover
         label: Cover Image
         type: image
-  email: # 'email' is the component name/key
+  email: 'email'
     label: Email Address
     type: string
     pattern:
